@@ -16,6 +16,7 @@
   "author": "sachinkalsi15@gmail.com, me@sachinkalsi.me",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.15.3",
     "multer": "^1.3.0"
   }

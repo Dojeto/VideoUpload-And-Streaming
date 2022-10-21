@@ -2,7 +2,10 @@ const express = require('express');
 const app =  express();
 const multer  = require('multer');
 const includeMulter = multer().any();
-require('./util/readenv').config();
+
+const {config} = require('dotenv')
+
+config();
 
 function shouldParseRequest(req) {
   const currentMethod = req.method;
